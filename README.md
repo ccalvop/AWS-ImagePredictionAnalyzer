@@ -25,7 +25,7 @@ Desplegar un modelo pre-entrenado ResNet-18 para realizar predicciones de imáge
 Un sistema funcional que permite cargar imágenes en un sitio web estático y realizar predicciones utilizando el modelo pre-entrenado ResNet-18 a través de AWS Lambda. Las predicciones se mostrarán en el sitio web, y se evaluará el rendimiento y la precisión de las predicciones obtenidas.
 
 
-**Modelo ResNet-18:** https://arxiv.org/abs/1512.03385
+**Modelo ResNet-18:** [Link](https://arxiv.org/abs/1512.03385)
 
 En este proyecto, se carga el modelo pre-entrenado ResNet-18 desde un archivo almacenado en Amazon S3. El código Python utilizado en la función de AWS Lambda carga la arquitectura del modelo y los pesos pre-entrenados, permitiendo realizar predicciones de imágenes basadas en probabilidades. Este modelo ha sido entrenado en un gran conjunto de datos y es capaz de reconocer una amplia variedad de objetos e imágenes.
 
