@@ -25,15 +25,16 @@ Desplegar un modelo pre-entrenado ResNet-18 para realizar predicciones de imáge
 Un sistema funcional que permite cargar imágenes en un sitio web estático y realizar predicciones utilizando el modelo pre-entrenado ResNet-18 a través de AWS Lambda. Las predicciones se mostrarán en el sitio web, y se evaluará el rendimiento y la precisión de las predicciones obtenidas.
 
 
-**Modelo ResNet-18:** [Link](https://arxiv.org/abs/1512.03385)
+**Modelo ResNet-18 (CNN):** 
 
-En este proyecto, se carga el modelo pre-entrenado ResNet-18 desde un archivo almacenado en Amazon S3. El código Python utilizado en la función de AWS Lambda carga la arquitectura del modelo y los pesos pre-entrenados, permitiendo realizar predicciones de imágenes basadas en probabilidades. Este modelo ha sido entrenado en un gran conjunto de datos y es capaz de reconocer una amplia variedad de objetos e imágenes.
+En este proyecto se carga un modelo pre-entrenado **ResNet-18**. El código Python utilizado en la función de AWS Lambda carga la arquitectura del modelo y los pesos pre-entrenados, permitiendo realizar predicciones de imágenes basadas en probabilidades. Este modelo es capaz de reconocer una amplia variedad de imágenes.
 
 ```
-El modelo ResNet-18 es una arquitectura de red neuronal convolucional (CNN) profunda que se utiliza en tareas de clasificación de imágenes. Está basada en el paper "Deep Residual Learning for Image Recognition" (Aprendizaje Residual Profundo para el Reconocimiento de Imágenes) y fue propuesta por Kaiming He, Xiangyu Zhang, Shaoqing Ren y Jian Sun. 
+El modelo ResNet-18 es una arquitectura de red neuronal convolucional (CNN) que se utiliza en tareas de clasificación de imágenes. Está basada en el paper "Deep Residual Learning for Image Recognition" (Aprendizaje Residual Profundo para el Reconocimiento de Imágenes) y fue propuesta por Kaiming He, Xiangyu Zhang, Shaoqing Ren y Jian Sun. 
 
 ResNet-18 se caracteriza por su capacidad para entrenar redes neuronales más profundas y superar el problema del desvanecimiento del gradiente. Utiliza conexiones residuales que permiten que las capas aprendan las diferencias entre la entrada y la salida deseada, facilitando así el entrenamiento de redes más profundas. Además, la arquitectura ResNet-18 consta de capas de convolución, capas de agrupamiento y capas completamente conectadas.
 ```
+[Link](https://arxiv.org/abs/1512.03385)
 
 ***
 
